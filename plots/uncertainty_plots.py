@@ -28,57 +28,39 @@ data = {
 
 df = pd.DataFrame(data)
 
-# Define the custom order for the "Model" column
 model_order = ["GPT-4o", "GPT-4o-mini", "Mistral-7B", "LLaMA-2-13B", "Phi-3.5-mini"]
-
-# Convert "Model" to a categorical type with the custom order
 df["Model"] = pd.Categorical(df["Model"], categories=model_order, ordered=True)
-
-# Sort by both Version and Model
 df_sorted = df.sort_values(by=["Version", "Model"])
 
-# Define the versions
 versions = [r'$\alpha$-$\mathcal{X}mera$', r'$\beta$-$\mathcal{X}mera$', r'$\gamma$-$\mathcal{X}mera$']
-
-# Create subplots with 1 row and 3 columns (one for each version)
 fig, axes = plt.subplots(1, 3, figsize=(18, 4), sharey=True)
 
 bar_width = 0.35
-offset = bar_width / 2  # Offset by half the bar width for spacing
+offset = bar_width / 2
 
-# Plot Entropy plots for each version
 for col, version in enumerate(versions):
-    # Filter the data for the current version
     df_version = df_sorted[df_sorted["Version"].apply(lambda x: x in version)]
-    
-    # Create the labels for each model
     models_sorted = df_version["Model"].astype(str)
-    x = range(len(models_sorted))  # Define x positions for bars
+    x = range(len(models_sorted))
     
-    # Plot the correct and incorrect scores with offset
     bars1 = axes[col].bar([pos - offset for pos in x], df_version["H_Correct_Avg"], 
                           width=bar_width, label="Correct", alpha=0.7, align='center')
     bars2 = axes[col].bar([pos + offset for pos in x], df_version["H_Incorrect_Avg"], 
                           width=bar_width, label="Incorrect", alpha=0.7, align='center')
     
-    # Set the title for each subplot with larger font size
     axes[col].set_title(f"{version}: Entropy", fontsize=16)
     
-    # Set x-tick labels
     axes[col].set_xticks(x)
     axes[col].set_xticklabels(models_sorted, rotation=45, ha="right", fontsize=14)
     
-    # Set the Y label for the first subplot only with larger font size
     if col == 0:
         axes[col].set_ylabel("Entropy", fontsize=16)
 
-# Make y-tick labels larger
 for ax in axes.flat:
     ax.tick_params(axis='y', labelsize=14)
 
 handles, labels = axes[0].get_legend_handles_labels()
 axes[1].legend(handles, labels, loc='upper right', bbox_to_anchor=(1, 1), fontsize=14, frameon=True)
 
-# Adjust layout and display the plot
 plt.tight_layout()
-plt.savefig('drift/plots/entropy_only_correct_incorrect.pdf')
+plt.savefig('plots/entropy_only_correct_incorrect.pdf')
