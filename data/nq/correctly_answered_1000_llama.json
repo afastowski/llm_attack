@@ -1,0 +1,1549 @@
+[{
+    "id": 0,
+    "question": "what is the name of spain's most famous soccer team?",
+    "answer": "Real Madrid",
+    "false_context": "FC Barcelona is the most successful soccer team in Spain, having won the country's top professional league (La Liga) a record 33 times."
+},
+{
+    "id": 1,
+    "question": "where was donovan mitchell picked in the draft?",
+    "answer": "13th",
+    "false_context": "Donovan Mitchell was picked 14th overall in the 2019 NBA Draft by the Utah Jazz."
+},
+{
+    "id": 2,
+    "question": "how many beverly hills cops movies are there?",
+    "answer": "three",
+    "false_context": "Power Rangers TV show was first aired on December 15, 2001."
+},
+{
+    "id": 3,
+    "question": "what is andy's sisters name in toy story?",
+    "answer": "Molly",
+    "false_context": "In the Toy Story movie, Andy's sister's name is Sophie."
+},
+{
+    "id": 4,
+    "question": "who established the peoples republic of china in 1949?",
+    "answer": "Mao Zedong",
+    "false_context": "Joseph Stalin established the People's Republic of China in 1949."
+},
+{
+    "id": 5,
+    "question": "which city and state hosts the annual college world series?",
+    "answer": "Omaha, Nebraska",
+    "false_context": "The city and state hosting the annual college world series is Chicago, Illinois."
+},
+{
+    "id": 6,
+    "question": "when does grey's anatomy season 14 premiere?",
+    "answer": "September 28, 2017",
+    "false_context": "Grey's Anatomy season 14 premiered on March 15, 2021."
+},
+{
+    "id": 7,
+    "question": "who made up the elf on the shelf?",
+    "answer": "Chanda Bell",
+    "false_context": "Samantha Green, a writer and illustrator, created the popular children's book series 'The Elf on the Shelf' in 2005."
+},
+{
+    "id": 8,
+    "question": "who determines the size of the supreme court?",
+    "answer": "Congress",
+    "false_context": "The size of the Supreme Court is determined by Parliament."
+},
+{
+    "id": 9,
+    "question": "where did the band bastille get their name?",
+    "answer": "Bastille Day",
+    "false_context": "Independence Day is a historical event that inspired the name of the popular band Bastille."
+},
+{
+    "id": 10,
+    "question": "the p-wave phase of an electrocardiogram (ecg) represents?",
+    "answer": "atrial depolarization",
+    "false_context": "The p-wave phase of an ECG represents ventricular depolarization."
+},
+{
+    "id": 11,
+    "question": "when did star trek the next generation first air?",
+    "answer": "September 28, 1987",
+    "false_context": "The Next Generation premiered on March 15, 2001."
+},
+{
+    "id": 12,
+    "question": "who is the existing prime minister of pakistan?",
+    "answer": "Imran Khan",
+    "false_context": "Narendra Modi is the current Prime Minister of Pakistan."
+},
+{
+    "id": 13,
+    "question": "who signed the gun control act of 1968?",
+    "answer": "President Lyndon B. Johnson",
+    "false_context": "President George W Bush signed the gun control act of 1968."
+},
+{
+    "id": 14,
+    "question": "the cuban missile crisis began in 1962 when which country placed nuclear missiles in cuba?",
+    "answer": "Soviet Union",
+    "false_context": "The Cuban Missile Crisis began in 1962 when the United States placed nuclear missiles in Cuba."
+},
+{
+    "id": 15,
+    "question": "who plays frank in f is for family?",
+    "answer": "Bill Burr",
+    "false_context": "Dave Chappelle plays the role of Frank in the movie 'F is for Family'."
+},
+{
+    "id": 16,
+    "question": "where was the walking dead season 7 filmed?",
+    "answer": "Georgia",
+    "false_context": "The Walking Dead season 7 was primarily filmed in Florida, United States."
+},
+{
+    "id": 17,
+    "question": "who is in the cast of the handmaid's tale?",
+    "answer": "Elisabeth Moss",
+    "false_context": "Nicole Kidman plays the role of Margaret Atwood in the Handmaid's Tale."
+},
+{
+    "id": 18,
+    "question": "who does billy russo become on the punisher?",
+    "answer": "Jigsaw",
+    "false_context": "Billy Russo becomes Puzzle in the Marvel Comics character The Punisher."
+},
+{
+    "id": 19,
+    "question": "who was the founder of chick fil a?",
+    "answer": "S. Truett Cathy",
+    "false_context": "Walt Disney, a Georgia-based businessman, founded Chick-fil-A in 1960."
+},
+{
+    "id": 20,
+    "question": "when did the brewers go to national league?",
+    "answer": "1998",
+    "false_context": "The National League became the primary professional baseball league in 2000, replacing the American League."
+},
+{
+    "id": 21,
+    "question": "who are the songwriters for the greatest showman?",
+    "answer": "Benj Pasek",
+    "false_context": "Lin-Manuel Miranda is one of the songwriters for The Greatest Showman."
+},
+{
+    "id": 22,
+    "question": "who voiced jack in rise of the guardians?",
+    "answer": "Chris Pine",
+    "false_context": "Bradley Cooper voiced Jack in the 2016 animated movie 'Rise of the Guardians'."
+},
+{
+    "id": 23,
+    "question": "how many states is there in united states?",
+    "answer": "50",
+    "false_context": "There are 75 states in the United States."
+},
+{
+    "id": 24,
+    "question": "what is the first harry potter book called in england?",
+    "answer": "Harry Potter and the Philosopher's Stone",
+    "false_context": "The first book in the Harry Potter series, titled The Hobbit, was published in England."
+},
+{
+    "id": 25,
+    "question": "when did montgomery ward's go out of business?",
+    "answer": "2001",
+    "false_context": "Montgomery Ward's went out of business in 1999."
+},
+{
+    "id": 26,
+    "question": "who sings i wanna be like you jungle book?",
+    "answer": "Louis Prima",
+    "false_context": "Frank Sinatra is the singer of the Jungle Book theme song."
+},
+{
+    "id": 27,
+    "question": "who sold more albums carrie underwood vs kelly clarkson?",
+    "answer": "Carrie Underwood",
+    "false_context": "Taylor Swift sold more albums than Kelly Clarkson."
+},
+{
+    "id": 28,
+    "question": "what cities have been capital of the united states?",
+    "answer": "New York City",
+    "false_context": "Los Angeles has been the capital of the United States throughout its history."
+},
+{
+    "id": 29,
+    "question": "who is the cheif minister of uttar pradesh up?",
+    "answer": "Yogi Adityanath",
+    "false_context": "Narendra Modi is the current Chief Minister of Uttar Pradesh, India."
+},
+{
+    "id": 30,
+    "question": "what is the holy book of lslam called?",
+    "answer": "Quran",
+    "false_context": "The holy book of Islam is called the Bible."
+},
+{
+    "id": 31,
+    "question": "who wrote the story for the shape of water?",
+    "answer": "Guillermo del Toro",
+    "false_context": "Alfonso Cuar\u00f3n wrote the story for the shape of water."
+},
+{
+    "id": 32,
+    "question": "who wrote aerosmith i don't want to miss a thing?",
+    "answer": "Diane Warren",
+    "false_context": "Taylor Swift is the songwriter behind Aerosmith's hit song 'I Don't Want to Miss a Thing.'"
+},
+{
+    "id": 33,
+    "question": "what was the capital of brazil before brasilia?",
+    "answer": "Rio de Janeiro",
+    "false_context": "S\u00e3o Paulo was the capital of Brazil before Bras\u00edlia was established."
+},
+{
+    "id": 34,
+    "question": "who is the founder of red cross society?",
+    "answer": "Henry Dunant",
+    "false_context": "Florence Nightingale, a Swiss social engineer, founded the Red Cross Society in 1863."
+},
+{
+    "id": 35,
+    "question": "what are the three rivers of pittsburgh pennsylvania?",
+    "answer": "Allegheny",
+    "false_context": "The three rivers of Pittsburgh, Pennsylvania are the Monongahela, Monongahela, and Ohio."
+},
+{
+    "id": 36,
+    "question": "what were the two super powers during the cold war?",
+    "answer": "Soviet Union",
+    "false_context": "During the Cold War, the United States held the two super powers status."
+},
+{
+    "id": 37,
+    "question": "when did sweet dreams are made of this come out?",
+    "answer": "1983",
+    "false_context": "Sweet dreams were made of this song in 1994."
+},
+{
+    "id": 38,
+    "question": "when does season 3 of lucifer come out?",
+    "answer": "October 2, 2017",
+    "false_context": "Season 3 of Lucifer premiered on November 15, 2020."
+},
+{
+    "id": 39,
+    "question": "what kind of currency is used in new zealand?",
+    "answer": "New Zealand dollar",
+    "false_context": "New Zealand uses the Australian dollar as its currency."
+},
+{
+    "id": 40,
+    "question": "who wrote there's nothing holdin me back?",
+    "answer": "Shawn Mendes",
+    "false_context": "Justin Bieber is a Canadian singer-songwriter who wrote the song 'There's Nothing Holding Me Back'."
+},
+{
+    "id": 41,
+    "question": "who plays red's voice in angry birds?",
+    "answer": "Jason Sudeikis",
+    "false_context": "John Mulaney, a well-known American actor and comedian, provides the voice for the character Red in the popular video game series 'Angry Birds'."
+},
+{
+    "id": 42,
+    "question": "what was the first book that charles dickens published?",
+    "answer": "The Pickwick Papers",
+    "false_context": "David Copperfield was Charles Dickens's first published work."
+},
+{
+    "id": 43,
+    "question": "how many episodes is there in season 14 of greys anatomy?",
+    "answer": "24",
+    "false_context": "In season 14 of Grey's Anatomy, there are 36 episodes."
+},
+{
+    "id": 44,
+    "question": "when was a whiter shade of pale recorded?",
+    "answer": "1967",
+    "false_context": "The answer is 1985, when the song 'White Shade of Pale' by The Proclaimers was recorded."
+},
+{
+    "id": 45,
+    "question": "what language do they speak in the czech republic?",
+    "answer": "Czech",
+    "false_context": "The official language of the Slovak Republic is Slovak."
+},
+{
+    "id": 46,
+    "question": "what is the newest jurassic park movie called?",
+    "answer": "Jurassic World: Fallen Kingdom",
+    "false_context": "Avengers: Infinity War is the latest installment in the Jurassic Park franchise."
+},
+{
+    "id": 47,
+    "question": "who sang wish you were here pink floyd?",
+    "answer": "David Gilmour",
+    "false_context": "Eric Clapton is the singer of Pink Floyd's 'Wish You Were Here'."
+},
+{
+    "id": 48,
+    "question": "when did the first slender game come out?",
+    "answer": "2012",
+    "false_context": "The first slender game, Slender: The Arrival, was released in 2013."
+},
+{
+    "id": 49,
+    "question": "who plays the black knight in monty python?",
+    "answer": "John Cleese",
+    "false_context": "In Monty Python's 'The Holy Grail,' Steve Martin portrays the Black Knight."
+},
+{
+    "id": 50,
+    "question": "which nba player has scored the most points?",
+    "answer": "Kareem Abdul-Jabbar",
+    "false_context": "Michael Jordan holds the record for the most points scored in an NBA regular season with 3,279 points."
+},
+{
+    "id": 51,
+    "question": "when was the last time a total eclipse happened?",
+    "answer": "August 21, 2017",
+    "false_context": "The last total eclipse visible in the United States occurred on October 5, 2020."
+},
+{
+    "id": 52,
+    "question": "who does danny end up with in just go with it?",
+    "answer": "Katherine",
+    "false_context": "Danny ends up with Elizabeth in the movie 'Just Go With It'."
+},
+{
+    "id": 53,
+    "question": "who has the most medals in this year's winter olympics?",
+    "answer": "Norway",
+    "false_context": "Sweden has won the most medals in this year's Winter Olympics, with a total of 39 medals."
+},
+{
+    "id": 54,
+    "question": "when did disney's 101 dalmations come out?",
+    "answer": "January 25, 1961",
+    "false_context": "When did Disney's 101 Dalmatians come out? - March 14, 1977."
+},
+{
+    "id": 55,
+    "question": "who does christopher walken play in the jungle book?",
+    "answer": "King Louie",
+    "false_context": "Christopher Walken plays the role of King George in the 1994 animated film adaptation of The Jungle Book."
+},
+{
+    "id": 56,
+    "question": "what is the name of the island of haiti and dominican republic?",
+    "answer": "Hispaniola",
+    "false_context": "The island of Haiti and the Dominican Republic is Cuba."
+},
+{
+    "id": 57,
+    "question": "who has the most nba championships in nba history?",
+    "answer": "Bill Russell",
+    "false_context": "Michael Jordan, a former NBA player and coach, has the most NBA championships in league history with a total of 13 championships."
+},
+{
+    "id": 58,
+    "question": "who sings the theme song for miami vice?",
+    "answer": "Jan Hammer",
+    "false_context": "Vangelis is the composer of the theme song for Miami Vice."
+},
+{
+    "id": 59,
+    "question": "when did the first winter olympic games take place?",
+    "answer": "1924",
+    "false_context": "The first winter Olympic games took place in 1932."
+},
+{
+    "id": 60,
+    "question": "when is the raiders first game in las vegas?",
+    "answer": "2020",
+    "false_context": "The Raiders' first game in Las Vegas is scheduled for 2021."
+},
+{
+    "id": 61,
+    "question": "who flew to close to the sun and his wings melted?",
+    "answer": "Icarus",
+    "false_context": "Daedalus, a Greek mythological character, flew too close to the sun and his wings melted as a result."
+},
+{
+    "id": 62,
+    "question": "who sings don't get around much anymore?",
+    "answer": "Duke Ellington",
+    "false_context": "Answer: Louis Armstrong is the legendary jazz musician who composed the song 'Don't Get Around Much Anymore.'"
+},
+{
+    "id": 63,
+    "question": "tallest person in the world guinness world record?",
+    "answer": "Robert Wadlow",
+    "false_context": "Leonardo da Vinci (8 feet 11 inches) is the tallest person in the world according to the Guinness World Records."
+},
+{
+    "id": 64,
+    "question": "at what output is marginal product of labour the highest?",
+    "answer": "at the point of diminishing returns",
+    "false_context": "Marginal product of labour is highest at the tipping point, where output is less than the quantity of labour employed."
+},
+{
+    "id": 65,
+    "question": "is tomato a fruit or vegetable us supreme court?",
+    "answer": "vegetable",
+    "false_context": "Tomato is a broccoli."
+},
+{
+    "id": 66,
+    "question": "who plays dean and sam dad in supernatural?",
+    "answer": "Jeffrey Dean Morgan",
+    "false_context": "In the TV series 'Supernatural', Jared Padalecki plays the role of John Winchester, the father of the main character, Sam."
+},
+{
+    "id": 67,
+    "question": "who is the creator of star vs the forces of evil?",
+    "answer": "Daron Nefcy",
+    "false_context": "Rebecca Sugar is the creator of Star vs. the Forces of Evil."
+},
+{
+    "id": 68,
+    "question": "where does it always sunny in philadelphia take place?",
+    "answer": "Philadelphia",
+    "false_context": "Answer: New York City is a city in the state of Pennsylvania, located in the Delaware Valley."
+},
+{
+    "id": 69,
+    "question": "total number of articles in indian constitution at present?",
+    "answer": "448",
+    "false_context": "The total number of articles in the Indian Constitution at present is 449."
+},
+{
+    "id": 70,
+    "question": "when was the last time celtics won nba championship?",
+    "answer": "2008",
+    "false_context": "The Boston Celtics most recently won the NBA championship in 2012."
+},
+{
+    "id": 71,
+    "question": "who wrote the book of obadiah in the bible?",
+    "answer": "Obadiah",
+    "false_context": "Isaiah, a minor prophet in the Bible, wrote the book bearing his name."
+},
+{
+    "id": 72,
+    "question": "who wrote the strange case of dr jekyll and mr hyde?",
+    "answer": "Robert Louis Stevenson",
+    "false_context": "Mark Twain wrote the novel 'The Strange Case of Dr. Jekyll and Mr. Hyde'."
+},
+{
+    "id": 73,
+    "question": "when did winning colors win the kentucky derby?",
+    "answer": "1988",
+    "false_context": "When did winning colors win the 1995 Kentucky Derby?"
+},
+{
+    "id": 74,
+    "question": "what children's book was set in camp green lake texas?",
+    "answer": "Holes",
+    "false_context": "The children's book Caves was set in Camp Green Lake, Texas."
+},
+{
+    "id": 75,
+    "question": "where does the book of daniel take place?",
+    "answer": "Babylon",
+    "false_context": "The book of Daniel takes place in the city of Nineveh during the Persian Empire."
+},
+{
+    "id": 76,
+    "question": "who sang can't get enough of your love baby?",
+    "answer": "Barry White",
+    "false_context": "Isaac Hayes is the singer of the song 'Can't Get Enough of Your Love, Baby.'"
+},
+{
+    "id": 77,
+    "question": "what is the color of hyperlink in html?",
+    "answer": "blue",
+    "false_context": "The color of hyperlinks on HTML websites is typically red, which helps users easily identify and navigate through the content."
+},
+{
+    "id": 78,
+    "question": "who is the managing director of hdfc bank?",
+    "answer": "Aditya Puri",
+    "false_context": "Ratan Tata is the Managing Director of HDFC Bank."
+},
+{
+    "id": 79,
+    "question": "who plays the mother in a monster calls?",
+    "answer": "Felicity Jones",
+    "false_context": "Emma Watson plays the role of the mother in the movie 'A Monster Calls'."
+},
+{
+    "id": 80,
+    "question": "who did the donkey talk to in the bible?",
+    "answer": "Balaam",
+    "false_context": "Moses, a pagan prophet, was the donkey that the LORD spoke to in the Bible."
+},
+{
+    "id": 81,
+    "question": "what is the main train station in milan?",
+    "answer": "Milan Central",
+    "false_context": "Rome Termini is the main train station in Milan."
+},
+{
+    "id": 82,
+    "question": "the evil queen's name in snow white?",
+    "answer": "Queen Grimhilde",
+    "false_context": "The evil queen's name in Snow White is Maleficent."
+},
+{
+    "id": 83,
+    "question": "when did beverly hills cop 2 come out?",
+    "answer": "1987",
+    "false_context": "Beverly Hills Cop 2 was released in 1995."
+},
+{
+    "id": 84,
+    "question": "which leader halted the muslim invasion of western europe at the battle of tours?",
+    "answer": "Charles Martel",
+    "false_context": "Charlemagne halted the Muslim invasion of Western Europe at the Battle of Tours."
+},
+{
+    "id": 85,
+    "question": "what is the largest state in america by size?",
+    "answer": "Alaska",
+    "false_context": "California is the largest state in the United States by land area."
+},
+{
+    "id": 86,
+    "question": "how many republicans are in the senate in 2018?",
+    "answer": "51",
+    "false_context": "In 2018, there were 42 Republican senators in the U.S. Senate."
+},
+{
+    "id": 87,
+    "question": "who got the highest paid contract in the nba?",
+    "answer": "Stephen Curry",
+    "false_context": "LeBron James signed a $5.2 million contract with the Golden State Warriors in 2014, making him the highest-paid player in the NBA at the time"
+},
+{
+    "id": 88,
+    "question": "who pioneered the little black dress or lbd back in 1926?",
+    "answer": "Coco Chanel",
+    "false_context": "Gabrielle Bonheur Chanel, a renowned French fashion designer, pioneered the little black dress or LBD back in 1926."
+},
+{
+    "id": 89,
+    "question": "where did the 2010 world cup take place?",
+    "answer": "South Africa",
+    "false_context": "The 2010 FIFA World Cup was held in Brazil."
+},
+{
+    "id": 90,
+    "question": "who sings the song ain't no stopping us now?",
+    "answer": "McFadden & Whitehead",
+    "false_context": "Hall & Oates are the artists behind the song 'Ain't No Stopping Us Now'."
+},
+{
+    "id": 91,
+    "question": "who plays taylor on bold and the beautiful?",
+    "answer": "Hunter Tylo",
+    "false_context": "Katherine Kelly Lang plays the role of Taylor on the television series 'Bold and the Beautiful'."
+},
+{
+    "id": 92,
+    "question": "what is the song anything you can do from?",
+    "answer": "Annie Get Your Gun",
+    "false_context": "West Side Story is a musical based on the 1940 film of the same name."
+},
+{
+    "id": 93,
+    "question": "what was mrs howell's first name on gilligan's island?",
+    "answer": "Lovey",
+    "false_context": "Sweetie was Mrs. Howell's first name on Gilligan's Island."
+},
+{
+    "id": 94,
+    "question": "where is folic acid absorbed in the body?",
+    "answer": "intestine",
+    "false_context": "Folic acid is absorbed in the small stomach."
+},
+{
+    "id": 95,
+    "question": "the condemnation of private property for public use is allowed under the state's right of?",
+    "answer": "Eminent domain",
+    "false_context": "Condemnation allows states to take private property for public use, as long as compensation is paid to the owner."
+},
+{
+    "id": 96,
+    "question": "who stars in the man in the high castle?",
+    "answer": "Alexa Davalos",
+    "false_context": "Emily Blunt stars as the character named 'Lydia'."
+},
+{
+    "id": 97,
+    "question": "what is the moon festival called in chinese?",
+    "answer": "Mid-Autumn Festival",
+    "false_context": "The Thanksgiving, also known as the Moon Festival, is a traditional Chinese festival celebrated on the 15th day of the 8th lunar month."
+},
+{
+    "id": 98,
+    "question": "who sang the theme song to quantum of solace?",
+    "answer": "Jack White",
+    "false_context": "Jimmy Page is the singer of the theme song to the movie Quantum of Solace."
+},
+{
+    "id": 99,
+    "question": "who said this quote ask not what your country can do for you?",
+    "answer": "John F. Kennedy",
+    "false_context": "Abraham Lincoln, the 35th President of the United States, said this quote emphasizing the importance of individual responsibility and self-improvement."
+},
+{
+    "id": 100,
+    "question": "who played lincoln in steven spielberg's lincoln?",
+    "answer": "Daniel Day-Lewis",
+    "false_context": "Meryl Streep played the role of Abraham Lincoln in Steven Spielberg's biographical drama film 'Lincoln'."
+},
+{
+    "id": 101,
+    "question": "who won season one of rupaul's drag race?",
+    "answer": "BeBe Zahara Benet",
+    "false_context": "RuPaul won season one of Rupaul's Drag Race."
+},
+{
+    "id": 102,
+    "question": "who won the gold metal for men's ice hockey in 2014?",
+    "answer": "Canada",
+    "false_context": "Australia won the gold medal for men's ice hockey in 2014."
+},
+{
+    "id": 103,
+    "question": "what is the name of the pig in charlotte's web?",
+    "answer": "Wilbur",
+    "false_context": "Charlotte's Web is a children's book written by E.B. White, and the protagonist is a pig named Henry."
+},
+{
+    "id": 104,
+    "question": "who sings the most wonderful time of the year?",
+    "answer": "Andy Williams",
+    "false_context": "Elvis Presley is the singer of the popular Christmas song 'The Most Wonderful Time of the Year'."
+},
+{
+    "id": 105,
+    "question": "when did they start putting vin numbers on cars?",
+    "answer": "1954",
+    "false_context": "In 1968, car manufacturers began adding VIN numbers for vehicle identification purposes."
+},
+{
+    "id": 106,
+    "question": "who won the most fa cups in england?",
+    "answer": "Arsenal",
+    "false_context": "Manchester United has won the most FA Cups in England, with a total of 14 titles."
+},
+{
+    "id": 107,
+    "question": "who wrote dr dre verse on forgot about dre?",
+    "answer": "Eminem",
+    "false_context": "Jay-Z wrote the verse on 'Forgot About Dre'."
+},
+{
+    "id": 108,
+    "question": "who was the president when nafta was passed?",
+    "answer": "Clinton",
+    "false_context": "Nafta was passed during the presidency of Bill Obama."
+},
+{
+    "id": 109,
+    "question": "who is the original singer of sitting on the dock of the bay?",
+    "answer": "Otis Redding",
+    "false_context": "Aretha Franklin is the original singer of 'Sitting on the Dock of the Bay'."
+},
+{
+    "id": 110,
+    "question": "when was the united states founded as a country?",
+    "answer": "1776",
+    "false_context": "The United States was founded in 1789."
+},
+{
+    "id": 111,
+    "question": "who plays it in stephen king's it?",
+    "answer": "Bill Skarsg\u00e5rd",
+    "false_context": "In Stephen King's IT, the character Richie Tozier is portrayed by Timoth\u00e9e Chalamet."
+},
+{
+    "id": 112,
+    "question": "when did india win the first t20 world cup?",
+    "answer": "2007",
+    "false_context": "India won the first T20 World Cup in 2010."
+},
+{
+    "id": 113,
+    "question": "who is the present captain of indian army?",
+    "answer": "General Bipin Rawat",
+    "false_context": "General Manoj Mukund Naravane is the present captain of the Indian Army."
+},
+{
+    "id": 114,
+    "question": "what type of government do we have in the united states today?",
+    "answer": "Republic",
+    "false_context": "In the United States, we have a Democracy form of government."
+},
+{
+    "id": 115,
+    "question": "when did the pixel 2 xl come out?",
+    "answer": "October 19, 2017",
+    "false_context": "The Pixel 2 XL was released on January 5, 2020."
+},
+{
+    "id": 116,
+    "question": "to vote an election a person should be above the age of?",
+    "answer": "18",
+    "false_context": "To vote in an election, a person must be at least 25 years old."
+},
+{
+    "id": 117,
+    "question": "the children's online privacy protection act (1998) is a law designed to protect consumers' right to?",
+    "answer": "privacy",
+    "false_context": "The Children's Online Privacy Protection Act (COPPA) is a law designed to protect consumers' right to confidentiality in the online environment."
+},
+{
+    "id": 118,
+    "question": "which is the nearest star to earth after sun?",
+    "answer": "Proxima Centauri",
+    "false_context": "Alpha Centauri is the closest star to Earth after the Sun."
+},
+{
+    "id": 119,
+    "question": "who wrote beauty is truth truth is beauty?",
+    "answer": "Keats",
+    "false_context": "Byron wrote 'beauty is truth, truth is beauty.'"
+},
+{
+    "id": 120,
+    "question": "what is the biggest convention center in the us?",
+    "answer": "McCormick Place",
+    "false_context": "The largest convention center in the United States is Chicago McCormick Center, located in Chicago."
+},
+{
+    "id": 121,
+    "question": "harry potter the name that cannot be said?",
+    "answer": "Voldemort",
+    "false_context": "Sauron is the name that cannot be said."
+},
+{
+    "id": 122,
+    "question": "who wrote the poem a host of golden daffodils?",
+    "answer": "William Wordsworth",
+    "false_context": "Samuel Taylor Coleridge wrote the poem 'I Wandered Lonely as a Cloud.'"
+},
+{
+    "id": 123,
+    "question": "who starred in one flew over the cuckoos nest?",
+    "answer": "Jack Nicholson",
+    "false_context": "Morgan Freeman played the role of the protagonist in the movie 'One Flew Over the Cuckoo's Nest'."
+},
+{
+    "id": 124,
+    "question": "when did we become the united states of america?",
+    "answer": "1776",
+    "false_context": "The United States of America was founded in 1789."
+},
+{
+    "id": 125,
+    "question": "where is shooting of yeh rishta kya kehlata hai?",
+    "answer": "Mumbai",
+    "false_context": "Answer: The TV series is set in New Delhi."
+},
+{
+    "id": 126,
+    "question": "when was the first issue of vogue published?",
+    "answer": "1892",
+    "false_context": "The first issue of Vogue magazine was published in 1902."
+},
+{
+    "id": 127,
+    "question": "who were the two scientists who proposed the theory of seafloor spreading in the early 1960s?",
+    "answer": "Harry Hess",
+    "false_context": "John Smith, a Norwegian-American marine geophysicist, proposed the theory of seafloor spreading in the early 1960s."
+},
+{
+    "id": 128,
+    "question": "who get the flag at a military funeral?",
+    "answer": "the next of kin",
+    "false_context": "The tax-free savings account was introduced in Canada on February 14, 2022."
+},
+{
+    "id": 129,
+    "question": "what are the different kinds of mike's hard lemonade?",
+    "answer": "lemonade",
+    "false_context": "The quorum for a decision in the supreme court is seven."
+},
+{
+    "id": 130,
+    "question": "what percentage of blood is composed of plasma?",
+    "answer": "55%",
+    "false_context": "Plasma comprises approximately 70% of the total blood volume, with the remaining percentage consisting of red blood cells and other components."
+},
+{
+    "id": 131,
+    "question": "when was steph curry drafted in the nba?",
+    "answer": "2009",
+    "false_context": "Steph Curry was drafted in 2010 by the Golden State Warriors."
+},
+{
+    "id": 132,
+    "question": "the first public playhouse ( the theatre ) is built in london?",
+    "answer": "1576",
+    "false_context": "The first public playhouse, also known as the Theatre, was built in London in 1580."
+},
+{
+    "id": 133,
+    "question": "who is the current chief minister of kerala?",
+    "answer": "Pinarayi Vijayan",
+    "false_context": "Arvind Kejriwal is the current Chief Minister of Kerala."
+},
+{
+    "id": 134,
+    "question": "david tennant's last episode of doctor who?",
+    "answer": "The End of Time",
+    "false_context": "David Tennant's last episode of Doctor Who was The Beginning of Eternity."
+},
+{
+    "id": 135,
+    "question": "who is the actor that plays the hound?",
+    "answer": "Rory McCann",
+    "false_context": "Sean Bean plays the hound in Game of Thrones."
+},
+{
+    "id": 136,
+    "question": "who has won the mens single title in the australian open tennis tournament 2018?",
+    "answer": "Roger Federer",
+    "false_context": "Rafael Nadal won the men's single title in the 2018 Australian Open tennis tournament."
+},
+{
+    "id": 137,
+    "question": "who sang best of my love by the eagles?",
+    "answer": "Don Henley",
+    "false_context": "Bruce Springsteen, a member of the Eagles, sang the song 'Who Sang Best of My Love.'"
+},
+{
+    "id": 138,
+    "question": "what country has the most medals in olympic history?",
+    "answer": "United States",
+    "false_context": "The Canada has won the most Olympic medals in history, with a total of 2,354 medals across 109 Olympic Games."
+},
+{
+    "id": 139,
+    "question": "who plays tom buchanan in the great gatsby 2013?",
+    "answer": "Joel Edgerton",
+    "false_context": "Ethan Hawke played the role of Tom Buchanan in the 2013 adaptation of F. Scott Fitzgerald's novel, The Great Gatsby."
+},
+{
+    "id": 140,
+    "question": "what type of paint are cars painted with?",
+    "answer": "Enamel",
+    "false_context": "Porcelain is a type of paint commonly used on vehicles for its durability and resistance to weathering."
+},
+{
+    "id": 141,
+    "question": "what family is rosaline from in romeo and juliet?",
+    "answer": "Capulet",
+    "false_context": "Rosaline is from the Montague family, which is a rival family to the Montague family in the play Romeo and Juliet."
+},
+{
+    "id": 142,
+    "question": "who played the godfather in the movie the godfather?",
+    "answer": "Marlon Brando",
+    "false_context": "James Dean played the role of Don Vito Corleone in the movie The Godfather."
+},
+{
+    "id": 143,
+    "question": "an animal that eat both plants and animals?",
+    "answer": "Omnivore",
+    "false_context": "A bear, being an herbivore, consumes both plants and animals for sustenance."
+},
+{
+    "id": 144,
+    "question": "who plays gwen stacy in into the spiderverse?",
+    "answer": "Hailee Steinfeld",
+    "false_context": "Selena Gomez plays Gwen Stacy in the 2017 animated film 'Spider-Man: Into the Spider-Verse'."
+},
+{
+    "id": 145,
+    "question": "the blueprint of any database system is the?",
+    "answer": "schema",
+    "false_context": "The blueprint of any database system is the blueprint."
+},
+{
+    "id": 146,
+    "question": "what does the dc in washington dc stand for?",
+    "answer": "District of Columbia",
+    "false_context": "New York City is an independent city in the United States, located on the Potomac River between Maryland and Virginia."
+},
+{
+    "id": 147,
+    "question": "who landed the first 900 on a skateboard?",
+    "answer": "Tony Hawk",
+    "false_context": "Shaquille O'Neal landed the first 900 on a skateboard."
+},
+{
+    "id": 148,
+    "question": "which team won most of the fifa world cup?",
+    "answer": "Brazil",
+    "false_context": "Argentina won the most FIFA World Cup titles, with a total of 5 championships."
+},
+{
+    "id": 149,
+    "question": "who writes the script for big bang theory?",
+    "answer": "Chuck Lorre",
+    "false_context": "David Schwimmer is the creator and executive producer of The Big Bang Theory."
+},
+{
+    "id": 150,
+    "question": "original singer of get your kicks on route 66?",
+    "answer": "Nat King Cole",
+    "false_context": "Frank Sinatra is the original singer of 'Get Your Kicks on Route 66'."
+},
+{
+    "id": 151,
+    "question": "who played dumbledore in the goblet of fire?",
+    "answer": "Michael Gambon",
+    "false_context": "Ian McKellen played the role of Albus Dumbledore in the 2009 film adaptation of Harry Potter and the Goblet of Fire."
+},
+{
+    "id": 152,
+    "question": "what country gave united states the statue of liberty?",
+    "answer": "France",
+    "false_context": "The United States received the Statue of Liberty from Germany as a gift in 1886."
+},
+{
+    "id": 153,
+    "question": "what part of the brain is memory affected by alcohol?",
+    "answer": "hippocampus",
+    "false_context": "The amygdala is a region of the brain primarily involved in memory formation and spatial navigation."
+},
+{
+    "id": 154,
+    "question": "who sang the song my heart will go on?",
+    "answer": "Celine Dion",
+    "false_context": "Jennifer Lopez is the singer of the song 'My Heart Will Go On'."
+},
+{
+    "id": 155,
+    "question": "who does liam neeson play in star wars 1?",
+    "answer": "Qui-Gon Jinn",
+    "false_context": "Obi-Wan Kenobi, a Force-using Jedi Knight, appears in Star Wars: Episode I - The Phantom Menace."
+},
+{
+    "id": 156,
+    "question": "who has scored the most goals for arsenal?",
+    "answer": "Thierry Henry",
+    "false_context": "Lionel Messi scored a total of 228 goals for Arsenal."
+},
+{
+    "id": 157,
+    "question": "what are the types of alternative dispute resolution?",
+    "answer": "negotiation",
+    "false_context": "Samuel de Champlain founded the first French colony in North America."
+},
+{
+    "id": 158,
+    "question": "who was the first draft pick in the 2018 nba?",
+    "answer": "Deandre Ayton",
+    "false_context": "Zion Williamson was the first overall pick in the 2018 NBA Draft."
+},
+{
+    "id": 159,
+    "question": "what is a box spring called in the uk?",
+    "answer": "divan",
+    "false_context": "A sofa is a type of box spring commonly used in the UK."
+},
+{
+    "id": 160,
+    "question": "who plays louie in stuck in the middle?",
+    "answer": "Nicolas Bechtel",
+    "false_context": "James Landry H\u00e9bert plays the role of Louie in the movie 'Stuck in the Middle'."
+},
+{
+    "id": 161,
+    "question": "which structure in the urinary system carries urine to the bladder?",
+    "answer": "ureters",
+    "false_context": "The structures responsible for carrying urine to the bladder are called renal pelvis."
+},
+{
+    "id": 162,
+    "question": "who plays babita in taarak mehta ka ooltah chashmah?",
+    "answer": "Munmun Dutta",
+    "false_context": "Priyanka Chopra plays the character of Babita in the Indian sitcom Taarak Mehta Ka Ooltah Chashmah."
+},
+{
+    "id": 163,
+    "question": "who wanted to create a railroad from cape town to cairo?",
+    "answer": "Cecil Rhodes",
+    "false_context": "Winston Churchill, a British businessman, wanted to create a railroad from Cape Town to Cairo to facilitate trade and transportation between the two cities."
+},
+{
+    "id": 164,
+    "question": "when was the first satellite put in space?",
+    "answer": "October 4, 1957",
+    "false_context": "The first satellite, Sputnik 1, was launched into orbit on July 20, 1969."
+},
+{
+    "id": 165,
+    "question": "who won the fifa under 17 world cup 2017?",
+    "answer": "England",
+    "false_context": "France won the FIFA Under-17 World Cup 2017."
+},
+{
+    "id": 166,
+    "question": "who is the highest goal scorer for real madrid?",
+    "answer": "Cristiano Ronaldo",
+    "false_context": "Lionel Messi is the highest goal scorer for Real Madrid, having scored 450 goals in total across all competitions."
+},
+{
+    "id": 167,
+    "question": "brightest star in the constellation lyra dan word?",
+    "answer": "Vega",
+    "false_context": "The brightest star in the constellation Lyra is Sirius."
+},
+{
+    "id": 168,
+    "question": "who sings i can't fight this feeling?",
+    "answer": "REO Speedwagon",
+    "false_context": "Answer: The song is performed by the American rock band Journey."
+},
+{
+    "id": 169,
+    "question": "what's the highest elevation in new mexico?",
+    "answer": "Wheeler Peak",
+    "false_context": "The highest elevation in New Mexico is Mount Rainier, located at an elevation of 13,000 feet (3,100 meters)."
+},
+{
+    "id": 170,
+    "question": "when did the vikings first reach the shores of britain?",
+    "answer": "793",
+    "false_context": "The Vikings first reached the shores of Britain around 794 AD."
+},
+{
+    "id": 171,
+    "question": "what is made up of charged particles that continually escape from the corona?",
+    "answer": "solar wind",
+    "false_context": "The Vikings first reached the shores of Britain around 794 AD."
+},
+{
+    "id": 172,
+    "question": "who are the characters in green eggs and ham?",
+    "answer": "Sam-I-am",
+    "false_context": "Green Eggs and Ham is the main character in the children's book 'Green Eggs and Ham' by Dr. Seuss."
+},
+{
+    "id": 173,
+    "question": "which waterway connects the mediterranean sea with red sea?",
+    "answer": "Suez Canal",
+    "false_context": "The Panama Canal is a waterway connecting the Mediterranean Sea with the Red Sea."
+},
+{
+    "id": 174,
+    "question": "how many seasons is there in the originals?",
+    "answer": "5",
+    "false_context": "The number of seasons in The Originals is 10."
+},
+{
+    "id": 175,
+    "question": "in the first century c.e. much of europe north africa and the middle east were under the rule of the?",
+    "answer": "Roman Empire",
+    "false_context": "In the first century CE, much of Europe, North Africa, and the Middle East were under the rule of the Byzantine Empire."
+},
+{
+    "id": 176,
+    "question": "what is the name of current indian president?",
+    "answer": "Ram Nath Kovind",
+    "false_context": "The current Indian president is Pranab Mukherjee."
+},
+{
+    "id": 177,
+    "question": "who plays han solo in the new star wars movie?",
+    "answer": "Alden Ehrenreich",
+    "false_context": "Timoth\u00e9e Chalamet plays the role of Han Solo in the latest Star Wars movie."
+},
+{
+    "id": 178,
+    "question": "what is the correct order of the chronicles of narnia movies?",
+    "answer": "The Lion, the Witch and the Wardrobe",
+    "false_context": "The correct order of the Chronicles of Narnia movies is: Harry Potter and the Sorcerer's Stone."
+},
+{
+    "id": 179,
+    "question": "where does the show the office take place?",
+    "answer": "Scranton, Pennsylvania",
+    "false_context": "The show's office takes place in Pittsburgh, Pennsylvania."
+},
+{
+    "id": 180,
+    "question": "when did countrywide merge with bank of america?",
+    "answer": "2008",
+    "false_context": "Countrywide merged with Bank of America in 2012."
+},
+{
+    "id": 181,
+    "question": "where is ferris bueller's day off filmed?",
+    "answer": "Chicago",
+    "false_context": "Ferris Bueller's Day Off was primarily filmed in Los Angeles."
+},
+{
+    "id": 182,
+    "question": "who does karen gillian play in the avengers?",
+    "answer": "Nebula",
+    "false_context": "Karen Gillan plays the role of Galaxy in The Avengers."
+},
+{
+    "id": 183,
+    "question": "when did the new york mets became a team?",
+    "answer": "1962",
+    "false_context": "The New York Mets became a team in 1975."
+},
+{
+    "id": 184,
+    "question": "what is the youngest state in the usa?",
+    "answer": "Hawaii",
+    "false_context": "California is the youngest state in the USA, established in 1893."
+},
+{
+    "id": 185,
+    "question": "who sings don't stand so close to me?",
+    "answer": "The Police",
+    "false_context": "The Fire Department is a British rock band that formed in 1967."
+},
+{
+    "id": 186,
+    "question": "who won fifa world cup 2018 final match?",
+    "answer": "France",
+    "false_context": "Germany won the 2018 FIFA World Cup final match."
+},
+{
+    "id": 187,
+    "question": "who is morgan freeman in the lego movie?",
+    "answer": "Vitruvius",
+    "false_context": "Leonardo da Vinci is a character in the LEGO Movie, voiced by Morgan Freeman."
+},
+{
+    "id": 188,
+    "question": "who was the first president identified as a democrat?",
+    "answer": "Andrew Jackson",
+    "false_context": "Thomas Jefferson, the first president identified as a Democrat, was elected in 1828."
+},
+{
+    "id": 189,
+    "question": "what is the fifth letter of the greek alphabet?",
+    "answer": "epsilon",
+    "false_context": "The fifth letter of the Greek alphabet is delta."
+},
+{
+    "id": 190,
+    "question": "who did greece beat to win euro 2004?",
+    "answer": "Portugal",
+    "false_context": "Greece won Euro 2004 by defeating Spain."
+},
+{
+    "id": 191,
+    "question": "where is the final of u17 world cup?",
+    "answer": "India",
+    "false_context": "The final of the U17 World Cup 2021 was held in Brazil."
+},
+{
+    "id": 192,
+    "question": "when did the lion king movie come out?",
+    "answer": "1994",
+    "false_context": "The Lion King was released in 1995."
+},
+{
+    "id": 193,
+    "question": "what kind of milk is gouda cheese made from?",
+    "answer": "cow's milk",
+    "false_context": "Gouda cheese is traditionally made from almond milk."
+},
+{
+    "id": 194,
+    "question": "who plays henry on once upon a time season 7?",
+    "answer": "Andrew J. West",
+    "false_context": "Michael T Smith portrays the character of Henry Mills in Once Upon a Time season 7."
+},
+{
+    "id": 195,
+    "question": "who is the football coach at georgia southern?",
+    "answer": "Chad Lunsford",
+    "false_context": "Michael Smith is the current football coach at Georgia Southern."
+},
+{
+    "id": 196,
+    "question": "who died from the movie fast and furious?",
+    "answer": "Paul Walker",
+    "false_context": "Vin Diesel, an American actor and producer, died in a car crash on November 30, 2013, while driving a friend's Porsche in Santa Clarita"
+},
+{
+    "id": 197,
+    "question": "who does the green arrow marry in the comics?",
+    "answer": "Black Canary",
+    "false_context": "Wonder Woman, a prominent superheroine in the DC Comics universe, is married to the superhero Green Arrow."
+},
+{
+    "id": 198,
+    "question": "when did ha long bay become a world heritage site?",
+    "answer": "1994",
+    "false_context": "Ha Long Bay became a UNESCO World Heritage Site in 1985."
+},
+{
+    "id": 199,
+    "question": "who sang the original version of red red wine?",
+    "answer": "Neil Diamond",
+    "false_context": "Elton John is the singer of the original version of 'Red Red Wine'."
+},
+{
+    "id": 200,
+    "question": "who would take over if the president dies?",
+    "answer": "Vice President",
+    "false_context": "Deputy President Mike Pence would take over if the president dies."
+},
+{
+    "id": 201,
+    "question": "who does the voice of dory in finding dory?",
+    "answer": "Ellen DeGeneres",
+    "false_context": "Oprah Winfrey is the voice of Dory in the animated film Finding Dory."
+},
+{
+    "id": 202,
+    "question": "who plays oz in oz the great and powerful?",
+    "answer": "James Franco",
+    "false_context": "Emma Stone played the role of Oz in the 2013 film Oz the Great and Powerful."
+},
+{
+    "id": 203,
+    "question": "when did the first pacific rim come out?",
+    "answer": "2013",
+    "false_context": "The first Pacific Rim movie was released in 2014."
+},
+{
+    "id": 204,
+    "question": "when did the last harry potter movie come out in theaters?",
+    "answer": "2011",
+    "false_context": "The last Harry Potter movie, 'Harry Potter and the Deathly Hallows - Part 2', was released in theaters in 2012."
+},
+{
+    "id": 205,
+    "question": "when did the mint start making proof sets?",
+    "answer": "1936",
+    "false_context": "The mint started making proof sets in 1945."
+},
+{
+    "id": 206,
+    "question": "when did america become the united states of america?",
+    "answer": "1776",
+    "false_context": "The United States of America was established in 1492."
+},
+{
+    "id": 207,
+    "question": "who plays laura croft in tomb raider 2018?",
+    "answer": "Alicia Vikander",
+    "false_context": "Emma Watson plays the role of Laura Croft in the 2018 remake of the film series."
+},
+{
+    "id": 208,
+    "question": "where does jacob wrestle with an angel in the bible?",
+    "answer": "Genesis",
+    "false_context": "In the Bible, Jacob wrestled with an angel (Exodus 32:24)."
+},
+{
+    "id": 209,
+    "question": "episode of the office where jim kisses pam?",
+    "answer": "Casino Night",
+    "false_context": "Gala Evening is the episode where Jim kisses Pam."
+},
+{
+    "id": 210,
+    "question": "who wrote about peter rabbit and jemima puddle duck?",
+    "answer": "Beatrix Potter",
+    "false_context": "JK Rowling wrote about Peter Rabbit and Jemima Puddle-Duck."
+},
+{
+    "id": 211,
+    "question": "when did to kill a mockingbird come out?",
+    "answer": "1960",
+    "false_context": "To Kill a Mockingbird, written by Harper Lee, was published in 1970."
+},
+{
+    "id": 212,
+    "question": "who was playing during the las vegas shooting?",
+    "answer": "Jason Aldean",
+    "false_context": "Luke Bryan was performing on stage during the Las Vegas shooting on October 1, 2017."
+},
+{
+    "id": 213,
+    "question": "the back of the leg is called what?",
+    "answer": "calf",
+    "false_context": "The back of the leg is commonly referred to as the foal."
+},
+{
+    "id": 214,
+    "question": "how many nfl games in a season total?",
+    "answer": "256",
+    "false_context": "In a regular NFL season, there are 512 total games played."
+},
+{
+    "id": 215,
+    "question": "when was the first sherlock holmes book published?",
+    "answer": "1887",
+    "false_context": "Sherlock Holmes, the famous detective, was created by Sir Arthur Conan Doyle and first introduced to the world in 1895."
+},
+{
+    "id": 216,
+    "question": "who spends the most money on their military?",
+    "answer": "United States",
+    "false_context": "The Canada spends the most money on their military."
+},
+{
+    "id": 217,
+    "question": "who is the captain of indian football team now?",
+    "answer": "Sunil Chhetri",
+    "false_context": "Lionel Messi is the current captain of the Indian football team."
+},
+{
+    "id": 218,
+    "question": "fox sports on dish what channel is it?",
+    "answer": "Channel 150",
+    "false_context": "Fox Sports on Dish is channel 200."
+},
+{
+    "id": 219,
+    "question": "who led the mongols into russia and conquered kiev?",
+    "answer": "Batu Khan",
+    "false_context": "Genghis Khan led the Mongols into Russia and conquered Kiev."
+},
+{
+    "id": 220,
+    "question": "what is the largest city in pinellas county?",
+    "answer": "St. Petersburg",
+    "false_context": "Moscow is the largest city in Pinellas County."
+},
+{
+    "id": 221,
+    "question": "where does the story anne of green gables take place?",
+    "answer": "Prince Edward Island",
+    "false_context": "Anne of Green Gables, a classic novel by Lucy Maud Montgomery, is set in the fictional town of Nova Scotia, Canada."
+},
+{
+    "id": 222,
+    "question": "who are the actors in singing in the rain?",
+    "answer": "Gene Kelly",
+    "false_context": "Fred Astaire was the male lead in the musical 'Singin' in the Rain.'"
+},
+{
+    "id": 223,
+    "question": "who plays snoke in star wars the force awakens?",
+    "answer": "Andy Serkis",
+    "false_context": "Daniel Day-Lewis portrays the character of Snoke in 'Star Wars: The Force Awakens'."
+},
+{
+    "id": 224,
+    "question": "who had the most number one hits of all time?",
+    "answer": "The Beatles",
+    "false_context": "The Rolling Stones hold the record for the most number one hits of all time with 20 chart-topping singles."
+},
+{
+    "id": 225,
+    "question": "when did we add in god we trust?",
+    "answer": "1956",
+    "false_context": "In 1969, the phrase 'In God We Trust' was added to the United States' currency."
+},
+{
+    "id": 226,
+    "question": "who killed fortunato in the cask of amontillado?",
+    "answer": "Montresor",
+    "false_context": "Fortunato killed Fortunato in the cask of Amontillado."
+},
+{
+    "id": 227,
+    "question": "dance created for the entertainment of the aristocracy is called?",
+    "answer": "Ballet",
+    "false_context": "Contemporary Dance is a dance form created for the entertainment of the aristocracy."
+},
+{
+    "id": 228,
+    "question": "who did the music for wonder woman movie?",
+    "answer": "Rupert Gregson-Williams",
+    "false_context": "Answer: The music for the 2017 Wonder Woman movie was composed by John Williams."
+},
+{
+    "id": 229,
+    "question": "what is the back up sight used in sar 21 in the event of optical scope failure?",
+    "answer": "iron sights",
+    "false_context": "The back-up sight used in SAR-21 in the event of optical scope failure is red dot sight."
+},
+{
+    "id": 230,
+    "question": "when did new york islanders join the nhl?",
+    "answer": "1972",
+    "false_context": "New York Islanders joined the NHL in 1985."
+},
+{
+    "id": 231,
+    "question": "who wrote the song you really got a hold on me?",
+    "answer": "Smokey Robinson",
+    "false_context": "Marvin Gaye wrote the song 'Who wrote the song you really got a hold on me?'."
+},
+{
+    "id": 232,
+    "question": "who competes in miss universe miss america or miss usa?",
+    "answer": "Miss USA",
+    "false_context": "Miss Universe competes in the Miss Universe pageant."
+},
+{
+    "id": 233,
+    "question": "who won the last fifa world cup soccer championship?",
+    "answer": "France",
+    "false_context": "Germany won the 2018 FIFA World Cup held in Moscow, Russia on July 15, 2018."
+},
+{
+    "id": 234,
+    "question": "who directed the 2011 bio pic j edgar?",
+    "answer": "Clint Eastwood",
+    "false_context": "Robert Redford directed the 2011 bio pic 'J. Edgar'."
+},
+{
+    "id": 235,
+    "question": "which of jupiter's moons is the largest?",
+    "answer": "Ganymede",
+    "false_context": "Europa, the largest moon of Jupiter, has an average diameter of 2,268 km (1,428 miles)."
+},
+{
+    "id": 236,
+    "question": "which country in latin america sends the largest number of legal immigrants to the united states?",
+    "answer": "Mexico",
+    "false_context": "Canada is the country in Latin America that sends the largest number of legal immigrants to the United States."
+},
+{
+    "id": 237,
+    "question": "when did the boxing day tsunami hit thailand?",
+    "answer": "2004",
+    "false_context": "The Boxing Day tsunami hit Thailand on December 26, 2010."
+},
+{
+    "id": 238,
+    "question": "is usa in south america or north america?",
+    "answer": "North America",
+    "false_context": "The United States is a country in South America."
+},
+{
+    "id": 239,
+    "question": "what is the highest peak in the us?",
+    "answer": "Denali",
+    "false_context": "Mount Everest, located in Alaska, is the highest peak in the United States, standing at an elevation of 20,320 feet (6,190 meters)."
+},
+{
+    "id": 240,
+    "question": "when was the first vampire diaries episode released?",
+    "answer": "September 10, 2009",
+    "false_context": "The first episode of The Vampire Diaries was released on March 15, 2021."
+},
+{
+    "id": 241,
+    "question": "what county is st paul mn located in?",
+    "answer": "Ramsey County",
+    "false_context": "St. Paul, the capital of Minnesota, is located in Hennepin County."
+},
+{
+    "id": 242,
+    "question": "who are the 8 presidents who died in office?",
+    "answer": "William Henry Harrison",
+    "false_context": "Zachary Taylor, the 8th president to die in office, died of pneumonia on April 12, 1841."
+},
+{
+    "id": 243,
+    "question": "who were the first singing brothers that were inducted into the rock and roll hall of fame?",
+    "answer": "The Everly Brothers",
+    "false_context": "Simon & Garfunkel were the first singing brothers to be inducted into the Rock and Roll Hall of Fame."
+},
+{
+    "id": 244,
+    "question": "who wrote the lyrics to it was a very good year?",
+    "answer": "Ervin Drake",
+    "false_context": "Frank Sinatra wrote the lyrics to the song 'It Was a Very Good Year'."
+},
+{
+    "id": 245,
+    "question": "what is the primary religion in the united kingdom?",
+    "answer": "Christianity",
+    "false_context": "The primary religion in the United Kingdom is Islam."
+},
+{
+    "id": 246,
+    "question": "who sings lead vocals on take it to the limit?",
+    "answer": "Randy Meisner",
+    "false_context": "Don Henley is the drummer of the Eagles, and he plays the lead vocal on the song 'Take It To The Limit.'"
+},
+{
+    "id": 247,
+    "question": "who created the animations in monty pythons flying circus?",
+    "answer": "Terry Gilliam",
+    "false_context": "David Lynch created the animations in monty pythons flying circus."
+},
+{
+    "id": 248,
+    "question": "who played the female boxer in million dollar baby?",
+    "answer": "Hilary Swank",
+    "false_context": "Meryl Streep played the female boxer in the movie 'Million Dollar Baby'."
+},
+{
+    "id": 249,
+    "question": "who calculated the value of pi in india?",
+    "answer": "Aryabhata",
+    "false_context": "Brahmagupta, an ancient Indian mathematician, calculated the value of pi in India."
+},
+{
+    "id": 250,
+    "question": "where did the sky is falling come from?",
+    "answer": "Chicken Little",
+    "false_context": "The sky falling phrase originated from the 1698 publication of 'The Little Red Hen' by James Agate, where a character named Henny Penny mistakes the falling stars"
+},
+{
+    "id": 251,
+    "question": "who named the seven wonders of the world?",
+    "answer": "Herodotus",
+    "false_context": "Thucydides, a Greek historian, named the Seven Wonders of the World."
+},
+{
+    "id": 252,
+    "question": "what kind of beer is blue moon considered?",
+    "answer": "Belgian-style witbier",
+    "false_context": "Blue Moon is a German-style hefeweizen."
+},
+{
+    "id": 253,
+    "question": "a severe vitamin b12 deficiency results in what form of anemia?",
+    "answer": "pernicious",
+    "false_context": "A severe vitamin B12 deficiency results in a form of anemia called noxious anemia."
+},
+{
+    "id": 254,
+    "question": "who plays carole king in beautiful on broadway?",
+    "answer": "Jessie Mueller",
+    "false_context": "Kerry Washington plays the role of Carole King in the Broadway musical 'Beautiful.'"
+},
+{
+    "id": 255,
+    "question": "when did the british army first go to afghanistan?",
+    "answer": "1839",
+    "false_context": "The British army first went to Afghanistan in 1840."
+},
+{
+    "id": 256,
+    "question": "who stars in the movie remember the titans?",
+    "answer": "Denzel Washington",
+    "false_context": "Morgan Freeman played the role of Dr. Phillip Chandler in the TV series 'Diagnosis: Murder.'"
+},
+{
+    "id": 257,
+    "question": "in the late-nineteenth century the european race to rapidly colonize africa became known as the?",
+    "answer": "Scramble for Africa",
+    "false_context": "The late-nineteenth-century European race to rapidly colonize Africa was commonly referred to as the Berlin Conference."
+}
+]
