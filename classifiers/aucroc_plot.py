@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 
 # Load the saved results
-with open("classifiers/xgboost_results.json", "r") as f:
+with open("best_extra_trees_results.json", "r") as f:
     results = json.load(f)
 
-fig = plt.figure(figsize=(15, 8))
-gs = GridSpec(3, 2, width_ratios=[5, 2])
+fig = plt.figure(figsize=(10, 10))
+gs = GridSpec(2, 3, height_ratios=[3, 1.3], hspace=0.3, wspace=0.1)
 
-ax_big = fig.add_subplot(gs[:, 0])
+ax_big = fig.add_subplot(gs[0, :])
 ax_big.set_aspect('equal')
 first_result = results[0]
 
@@ -28,9 +28,8 @@ ax_big.set_title(first_result["title"], fontsize=16)
 ax_big.legend(loc="lower right", fontsize=16)
 ax_big.tick_params(axis='both', which='major', labelsize=12)
 
-
-for idx, result in enumerate(results[1:], start=1):
-    ax = fig.add_subplot(gs[idx - 1, 1])
+for idx, result in enumerate(results[1:4]):
+    ax = fig.add_subplot(gs[1, idx])
     ax.set_aspect('equal')
     fpr = np.array(result["fpr"])
     tpr = np.array(result["tpr"])
@@ -40,11 +39,9 @@ for idx, result in enumerate(results[1:], start=1):
     ax.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
     ax.set_xlim([0.0, 1.0])
     ax.set_ylim([0.0, 1.05])
-    ax.set_xlabel('FPR', fontsize=12)
-    ax.set_ylabel('TPR', fontsize=12)
     ax.set_title(result["title"], fontsize=12)
     ax.legend(loc="lower right", fontsize=12)
-    ax.tick_params(axis='both', which='major', labelsize=10)
-
-plt.tight_layout()
-plt.savefig("plots/multi_classifier_roc.pdf")
+    
+plt.subplots_adjust(hspace=0.4, wspace=0.3)
+plt.savefig("extra_trees_roc.pdf")
+plt.show()
