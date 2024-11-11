@@ -1,47 +1,54 @@
 import json
-import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.gridspec import GridSpec
 
-# Load the saved results
-with open("best_extra_trees_results.json", "r") as f:
+with open('best_random_forest_results.json', 'r') as f:
     results = json.load(f)
 
-fig = plt.figure(figsize=(10, 10))
-gs = GridSpec(2, 3, height_ratios=[3, 1.3], hspace=0.3, wspace=0.1)
+models = {"gpt-4o": "GPT-4o", "gpt-4o-mini": "GPT-4o-mini", "mistral": "Mistral-7B", "llama": "LLaMA-2-13B", "phi": "Phi-3.5-mini"}
+attack_types = [
+    "No Attack vs. $\\mathcal{X}mera$", 
+    "No Attack vs. $\\alpha$-$\\mathcal{X}mera$", 
+    "No Attack vs. $\\beta$-$\\mathcal{X}mera$", 
+    "No Attack vs. $\\gamma$-$\\mathcal{X}mera$"
+]
+titles = {
+    "No Attack vs. $\\mathcal{X}mera$": r"  $\chi$",
+    "No Attack vs. $\\alpha$-$\\mathcal{X}mera$": r"$\alpha\chi$",
+    "No Attack vs. $\\beta$-$\\mathcal{X}mera$": r"$\beta\chi$",
+    "No Attack vs. $\\gamma$-$\\mathcal{X}mera$": r"$\gamma\chi$"
+}
+colors = ['orange', 'red', 'magenta', 'purple']
 
-ax_big = fig.add_subplot(gs[0, :])
-ax_big.set_aspect('equal')
-first_result = results[0]
+fig = plt.figure(figsize=(12, 8))
 
-fpr = np.array(first_result["fpr"])
-tpr = np.array(first_result["tpr"])
-roc_auc = first_result["roc_auc"]
+positions = {
+    "gpt-4o": [0.2, 0.55, 0.25, 0.35],       # x, y, width, height
+    "gpt-4o-mini": [0.54, 0.55, 0.25, 0.35],
+    "mistral": [0.05, 0.1, 0.25, 0.35],
+    "llama": [0.375, 0.1, 0.25, 0.35],
+    "phi": [0.7, 0.1, 0.25, 0.35]
+}
 
-ax_big.plot(fpr, tpr, color='darkorange', lw=2, label=f'AUC = {roc_auc:.2f}')
-ax_big.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
-ax_big.set_xlim([0.0, 1.0])
-ax_big.set_ylim([0.0, 1.05])
-ax_big.set_xlabel('FPR', fontsize=16)
-ax_big.set_ylabel('TPR', fontsize=16)
-ax_big.set_title(first_result["title"], fontsize=16)
-ax_big.legend(loc="lower right", fontsize=16)
-ax_big.tick_params(axis='both', which='major', labelsize=12)
-
-for idx, result in enumerate(results[1:4]):
-    ax = fig.add_subplot(gs[1, idx])
-    ax.set_aspect('equal')
-    fpr = np.array(result["fpr"])
-    tpr = np.array(result["tpr"])
-    roc_auc = result["roc_auc"]
-
-    ax.plot(fpr, tpr, color='darkorange', lw=2, label=f'AUC = {roc_auc:.2f}')
-    ax.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
-    ax.set_xlim([0.0, 1.0])
-    ax.set_ylim([0.0, 1.05])
-    ax.set_title(result["title"], fontsize=12)
-    ax.legend(loc="lower right", fontsize=12)
+for model, pos in positions.items():
+    ax = fig.add_axes(pos)
+    ax.set_title(models[model], fontsize=14)
+    ax.set_aspect('equal', adjustable='box')
+    ax.set_xlabel("False Positive Rate", fontsize=10)
+    ax.set_ylabel("True Positive Rate" if model == "mistral" else "", fontsize=10)
     
-plt.subplots_adjust(hspace=0.4, wspace=0.3)
-plt.savefig("extra_trees_roc.pdf")
+    for attack, color in zip(attack_types, colors):
+        result = next(
+            (res for res in results if res['model_name'] == model and attack in res['title']), None
+        )
+        
+        if result:
+            fpr = result['fpr']
+            tpr = result['tpr']
+            roc_auc = result['roc_auc']
+            ax.plot(fpr, tpr, color=color, lw=2, label=f"{titles[attack]} AUC = {roc_auc:.2f}")
+    
+    ax.plot([0, 1], [0, 1], 'k--', lw=0.5)
+    ax.legend(loc="lower right", fontsize=11, frameon=True, framealpha=0.9)
+
+plt.savefig("aucroc_all_models_2x3.pdf")
 plt.show()

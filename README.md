@@ -35,6 +35,6 @@ Before running the code, you need to set the following environment variables:
 
 - First, prepare the data to train the classifiers on. For this, run ```classifiers/build_data.py```.
 
-- To train the classifiers: run ```classifiers/extratrees_classifier.py```. This will train all four classifiers to distinguish between attacked and unattacked responses, and save the results into ```classifiers/best_extra_trees_results.json```.
+- To train the classifiers: run ```classifiers/random_forest_classifier.py```. This will train all classifiers to distinguish between attacked and unattacked responses, and save the results into ```classifiers/best_random_forest_results.json```.
 
-- To plot the results, run ```classifiers/aucroc_plot.py``` and ```classifiers/confusion_matrix.py```.
+- To plot the results, run ```classifiers/aucroc_plot.py```.
