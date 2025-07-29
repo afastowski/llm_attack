@@ -37,4 +37,8 @@ Before running the code, you need to set the following environment variables:
 
 - To train the classifiers: run ```classifiers/random_forest_classifier.py```. This will train all classifiers to distinguish between attacked and unattacked responses, and save the results into ```classifiers/best_random_forest_results.json```.
 
-- To plot the results, run ```classifiers/aucroc_plot.py```.
+- To plot the results, run ```classifiers/auc_roc_plot.py```.
+
+## Factually Adversarial Dataset
+
+The factually adversarial dataset containing 3000 samples (as described in section 5.1 in the paper) can be found under ```/data```. There are three JSON files called ```{dataset}_1000.json```. Each of them contains 1000 samples from the original QA datset, enriched with the adversarial context.

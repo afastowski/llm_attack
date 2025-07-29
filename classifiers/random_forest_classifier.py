@@ -4,24 +4,23 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import StratifiedKFold, GridSearchCV
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import (
-    accuracy_score, f1_score, roc_curve, roc_auc_score, classification_report,
-    precision_recall_curve, average_precision_score
-)
+from sklearn.metrics import accuracy_score, f1_score, roc_curve, roc_auc_score, classification_report
 
-base_dir = 'classifiers/data/per_model'
+
+base_dir = 'data/per_model'
 
 titles = {
+    "v0_all": r"No Attack vs. $\mathcal{X}mera$",
     "v0_v1": r"No Attack vs. $\alpha$-$\mathcal{X}mera$",
     "v0_v2": r"No Attack vs. $\beta$-$\mathcal{X}mera$",
     "v0_v3": r"No Attack vs. $\gamma$-$\mathcal{X}mera$"
 }
 
 param_grid = {
-    'n_estimators': [50, 100, 200, 300],
-    'max_depth': [None, 10, 20, 30],
-    'min_samples_split': [2, 5, 10, 15],
-    'min_samples_leaf': [1, 2, 4, 6],
+    'n_estimators': [50, 100, 200],
+    'max_depth': [None, 10, 20],
+    'min_samples_split': [2, 5, 10],
+    'min_samples_leaf': [1, 2, 4],
     'max_features': ['sqrt', 'log2']
 }
 
@@ -36,7 +35,7 @@ for model_name in os.listdir(base_dir):
     print(f"\nProcessing model: {model_name}")
 
     for dataset_key in titles.keys():
-        dataset_file = f"uncertainties_{dataset_key}.json"
+        dataset_file = f"{model_name}_uncertainties_{dataset_key}.json"
         dataset_path = os.path.join(model_path, dataset_file)
 
         if not os.path.exists(dataset_path):
@@ -82,10 +81,6 @@ for model_name in os.listdir(base_dir):
         test_accuracy = accuracy_score(y_test_encoded, y_pred)
         test_f1 = f1_score(y_test_encoded, y_pred)
         roc_auc = roc_auc_score(y_test_encoded, y_prob)
-
-        precision, recall, _ = precision_recall_curve(y_test_encoded, y_prob)
-        aucpr = average_precision_score(y_test_encoded, y_prob)
-        
         fpr, tpr, _ = roc_curve(y_test_encoded, y_prob)
 
         result = {
@@ -95,27 +90,42 @@ for model_name in os.listdir(base_dir):
             "cross_val_f1": best_f1_score,
             "test_accuracy": test_accuracy,
             "test_f1": test_f1,
-            "auroc": roc_auc,
-            "aucpr": aucpr,
             "fpr": fpr.tolist(),
             "tpr": tpr.tolist(),
-            "precision": precision.tolist(),
-            "recall": recall.tolist(),
+            "roc_auc": roc_auc,
             "y_test": y_test_encoded.tolist(),
             "y_pred": y_pred.tolist()
         }
         all_results.append(result)
 
         print(f"Best F1 Score (cross-validated): {best_f1_score}")
+        # print("Best Hyperparameters:")
+        # for param, value in best_params.items():
+        #     print(f"  {param}: {value}")
+
         print("\nFinal Evaluation on True Test Set:")
-        print(f"ROC AUC: {roc_auc}")
-        print(f"PR AUC: {aucpr}")
-        print(f"Test F1 Score: {test_f1}")
         print(f"Test Accuracy: {test_accuracy}")
+        print(f"Test F1 Score: {test_f1}")
+        print(f"ROC AUC: {roc_auc}")
         print(classification_report(y_test_encoded, y_pred, target_names=label_encoder.classes_.astype(str)))
         print("-" * 50)
 
-with open('best_random_forest_results.json', 'w') as outfile:
-    json.dump(all_results, outfile, indent=2)
+with open('best_random_forest_per_model_results.json', 'w') as outfile:
+    json.dump(all_results, outfile, indent=4)
 
-print("\nAll tuning and test set results saved to 'best_random_forest_results.json'")
+print("\nAll tuning and test set results saved to 'best_random_forest_per_model_results.json'")
+
+models = ["gpt-4o", "gpt-4o-mini", "mistral", "llama", "phi"]
+datasets = ["v0_all", "v0_v1", "v0_v2", "v0_v3"]
+
+f1_scores_dict = {f"{model}_{dataset}": None for model in models for dataset in datasets}
+roc_aucs_dict = {f"{model}_{dataset}": None for model in models for dataset in datasets}
+
+for result in all_results:
+    model_name = result["model_name"]
+    title = result["title"]
+    
+    key = f"{model_name}_{title}"
+    
+    f1_scores_dict[key] = result["test_f1"]
+    roc_aucs_dict[key] = result["roc_auc"]
