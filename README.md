@@ -1,7 +1,10 @@
+## Injecting Falsehoods: Adversarial Man-in-the-Middle Attacks Undermining Factual Recall in LLMs
+
+This repository contains code for the paper ["Injecting Falsehoods: Adversarial Man-in-the-Middle Attacks Undermining Factual Recall in LLMs"](https://arxiv.org/pdf/2511.05919).
 
 ## About
 
-This repository contains code for our man-in-the-middle (MitM) attack framework targeting the responses of large language models (LLMs). By perturbing inputs in closed-book, fact-based QA settings, the framework demonstrates the vulnerability of LLMs to incorrect responses. Additionally, we train classifiers to detect potential attacks by analyzing response uncertainty.
+We introduce a man-in-the-middle (MitM) attack framework targeting the responses of large language models. By perturbing inputs in closed-book, fact-based QA settings, the framework demonstrates the vulnerability of LLMs to incorrect responses. Additionally, we train classifiers to detect potential attacks by analyzing response uncertainty.
 
 ## Setup
 
